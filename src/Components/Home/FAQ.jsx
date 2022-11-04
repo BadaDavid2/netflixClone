@@ -193,7 +193,7 @@ const Div = styled.div`
       }
       button{
         margin: 20px 0px;
-        width: 30%;
+        width: 40%;
         border-radius: 5px;
       }
     }

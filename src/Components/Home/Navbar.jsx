@@ -37,7 +37,8 @@ const Logo = styled.div`
   img{
     width: 100%;
   }
-  min-width: 50px;
+  min-width: 20px;
+  
 `
 const SignIn = styled.div`
   background-color: red;
