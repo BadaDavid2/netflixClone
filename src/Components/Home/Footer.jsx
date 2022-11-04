@@ -45,7 +45,6 @@ const Container = styled.div`
     min-height: 30vh;
     /* height: 100vh; */
     max-height: fit-content;
-    border-bottom: 10px rgb(34,34,34) solid;
     padding: 20px 0px;
 `
 const Wrapper = styled.div`
@@ -76,7 +75,7 @@ const DIV = styled.div`
     justify-content: space-between;
     @media only screen and (min-width:360px) and (max-width:500px){
         width: 90%;
-        margin: auto;
+        margin: 30px auto;
         flex-wrap: wrap;
     }
 
