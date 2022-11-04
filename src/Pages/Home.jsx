@@ -46,7 +46,7 @@ const Container = styled.div`
     background-position: center;
     background-size: cover;
     @media only screen and (min-width:360px) and (max-width:820px){
-      height:60vh;
+      height:66vh;
     }
     position: relative;
 `
@@ -111,6 +111,7 @@ const Header = styled.div`
       background-color: rgb(233, 4, 15);
     }
   }
+
   @media only screen and (min-width:360px) and (max-width:820px){
     padding: 0px 15px;
     h1{
@@ -130,7 +131,7 @@ const Header = styled.div`
       }
       button{
         margin: 20px 0px;
-        width: 40%;
+        width: 45%;
         border-radius: 5px;
       }
     }

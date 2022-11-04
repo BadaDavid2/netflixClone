@@ -1,14 +1,13 @@
 import React from 'react'
-import styled from 'styled-components'
-import logo from '../../Img/logo.png'
 import {NavLink} from 'react-router-dom'
+import logo from '../../Img/logo.png'
+import styled from 'styled-components'
 const Navbar = () => {
   return (
     <>
-      <Container>
+    <Container>
         <Wrapper>
-          <Logo><img src={logo} alt="" /></Logo>
-          <SignIn to='/signIn'>Sign In</SignIn>
+          <Logo to='/'><img src={logo} alt="" /></Logo>
         </Wrapper>
       </Container>
     </>
@@ -32,26 +31,16 @@ const Wrapper = styled.div`
   align-items: inherit;
   padding: 18px 0px;
 `
-const Logo = styled.div`
+const Logo = styled(NavLink)`
   width: 200px;
   margin-left: 30px;
   img{
     width: 100%;
   }
   min-width: 20px;
+  @media only screen and (min-width:360px) and (max-width:820px){
+      width: 100px;
+    }
   
 `
-const SignIn = styled(NavLink)`
-  background-color: red;
-  text-decoration: none;
-  height: 35px;
-  width: 80px;
-  font-size: 15px;
-  border-radius: 3px;
-  margin-right: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white !important;
-  margin-top: 18px;
-`
+
