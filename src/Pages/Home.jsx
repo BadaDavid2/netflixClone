@@ -11,7 +11,7 @@ import FAQ from '../Components/Home/FAQ'
 import Footer from '../Components/Home/Footer'
 const Home = () => {
   return (
-    <>
+    <All>
     <Container>
       <Navbar/>
       <Header>
@@ -30,12 +30,14 @@ const Home = () => {
     <Kids/>
     <FAQ/>
     <Footer/>
-    </>
+    </All>
   )
 }
 
 export default Home
-
+const All = styled.div`
+  overflow-x: hidden;
+`
 const Container = styled.div`
     width: 100%;
     overflow-x: hidden;

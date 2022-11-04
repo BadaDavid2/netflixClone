@@ -178,7 +178,7 @@ const Div = styled.div`
       }
       button{
         margin: 20px 0px;
-        width: 40%;
+        width: 45%;
         border-radius: 5px;
       }
     }
@@ -193,7 +193,7 @@ const Div = styled.div`
       }
       button{
         margin: 20px 0px;
-        width: 40%;
+        width: 30%;
         border-radius: 5px;
       }
     }
